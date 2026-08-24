@@ -4,8 +4,8 @@ import (
 	"io"
 	"net/http"
 	"photoalbum/internal/app/store"
+	"photoalbum/internal/pkg/logger"
 
-	"github.com/Aleksandr-Kai/logger"
 	"github.com/gorilla/mux"
 )
 

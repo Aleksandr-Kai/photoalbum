@@ -25,7 +25,7 @@ func (u *User) BeforeCreate() error {
 }
 
 func encryptString(s string) (string, error) {
-	b, err := bcrypt.GenerateFromPassword([]byte(s), bcrypt.MinCost)
+	b, err := bcrypt.GenerateFromPassword([]byte(s), bcrypt.DefaultCost)
 	if err != nil {
 		return "", err
 	}

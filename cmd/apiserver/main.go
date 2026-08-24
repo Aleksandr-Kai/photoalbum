@@ -4,8 +4,8 @@ import (
 	"flag"
 	"log"
 	"photoalbum/internal/app/apiserver"
+	"photoalbum/internal/pkg/logger"
 
-	"github.com/Aleksandr-Kai/logger"
 	"github.com/BurntSushi/toml"
 )
 
